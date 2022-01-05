@@ -477,6 +477,114 @@ header nav .List-user-nav ul li :nth-child(2) {
   font-size: 1.4rem;
   font-family: "koodak";
 }
+
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.main .new-Ads {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 1.5rem;
+  border-bottom: 1px solid rgb(116, 116, 116);
+}
+
+.main .new-Ads .title {
+  width: 11rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -0.1rem 0;
+  direction: rtl;
+  border: 1px solid rgb(116, 116, 116);
+  border-top: 3px solid #1abc9c;
+  border-radius: 3px;
+}
+
+.main .new-Ads .title h3 {
+  font-size: 1.7rem;
+  font-family: "yekan";
+}
+
+.main .new-Ads .underline-Ads-Title {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(116, 116, 116);
+}
+
+.main .new-Ads .item-Ads {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2px 0;
+  cursor: pointer;
+  border-left: 1px solid rgb(116, 116, 116);
+  border-right: 1px solid rgb(116, 116, 116);
+}
+
+.main .new-Ads .item-Ads .title-Item-Ads {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 4px 0;
+  padding: 0 4px;
+  direction: rtl;
+}
+
+.main .new-Ads .item-Ads .title-Item-Ads h4 {
+  font-size: 1.5rem;
+  font-family: "nazanin";
+}
+
+.main .new-Ads .item-Ads .info-About-Time-Map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.main .new-Ads .item-Ads .info-About-Time-Map .time-Ads {
+  display: flex;
+}
+
+.main .new-Ads .item-Ads .info-About-Time-Map .time-Ads span {
+  font-size: 1.3rem;
+  font-family: "yekan";
+}
+
+.main .new-Ads .item-Ads .info-About-Time-Map .map-Ads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .new-Ads .item-Ads .info-About-Time-Map .map-Ads span {
+  font-size: 1.3rem;
+  font-family: "yekan";
+  margin: 0 0.4rem;
+}
+
+.underLine-Ads-Item {
+  width: 95%;
+  height: 1px;
+  background-color: rgb(116, 116, 116);
+  margin: 2rem 0;
+}
+
 /* responsive */
 @media (min-width: 1019px) and (max-width: 1216px) {
   header nav .List-user-nav {
