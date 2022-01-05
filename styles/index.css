@@ -1,0 +1,774 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "koodak";
+  src: url("../fonts/KoodakBold.eot?#") format("eot"),
+    url("../fonts/KoodakBold.ttf") format("truetype"),
+    url("../fonts/KoodakBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "nazanin";
+  src: url("../fonts/Nazanin.eot?#") format("eot"),
+    url("../fonts/Nazanin.ttf") format("truetype"),
+    url("../fonts/Nazanin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url("../fonts/Yekan.eot?#") format("eot"),
+    url("../fonts/Yekan.ttf") format("truetype"),
+    url("../fonts/Yekan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  background: url("../images/about.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  position: fixed;
+}
+
+header .navbar,
+header nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header nav .List-user-nav {
+  width: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header nav .List-user-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+header nav .List-user-nav ul li {
+  display: flex;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+header nav .List-user-nav ul li :nth-child(2) {
+  width: 90px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  background: #666;
+  box-shadow: 3px 3px 3px rgb(36, 35, 35);
+  cursor: pointer;
+}
+
+.user:hover {
+  background: #777;
+}
+
+.user i {
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.down {
+  margin: 0 10px;
+}
+
+.name-user {
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.title-nav {
+  width: 140px;
+  height: auto;
+  color: #fff;
+}
+
+.title-nav h2 {
+  font-size: 2.7rem;
+  font-weight: normal;
+  margin: 20px 30px;
+}
+
+.underline {
+  width: 2px;
+  height: 70px;
+  background-color: rgb(80, 78, 78);
+}
+
+.main-List-navbar {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #555;
+}
+
+.main-List-navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0 500px;
+}
+
+.main-List-navbar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.home {
+  width: 60px;
+  font-size: 1.8rem;
+  font-family: "koodak";
+}
+
+.home,
+.jobs-search,
+.create-resume,
+.fifteen-company {
+  cursor: pointer;
+}
+
+.text-nav {
+  margin-right: 10px;
+}
+
+.jobs-search {
+  width: 200px;
+  font-size: 1.8rem;
+  font-family: "koodak";
+}
+
+.create-resume {
+  width: 140px;
+  font-size: 1.8rem;
+  font-family: "koodak";
+}
+
+.fifteen-company {
+  width: 150px;
+  font-size: 1.8rem;
+  font-family: "koodak";
+}
+
+.about-general-company {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 140px 0;
+}
+
+.Numbers-company {
+  width: 720px;
+  height: 127px;
+  background-color: hsla(0, 0%, 100%, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px 20px 0 0;
+}
+
+.Numbers-company .title {
+  font-size: 1.7rem;
+  font-family: "yekan";
+  margin: 20px 0;
+}
+
+.Numbers-company .title a {
+  color: red;
+  text-decoration: none;
+  border-bottom: 2.6px dashed red;
+}
+
+.about-work {
+  font-size: 2rem;
+  font-family: "koodak";
+}
+
+.about-work span {
+  color: blue;
+}
+
+.filter {
+  width: 118rem;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  direction: rtl;
+}
+
+#search {
+  width: 30.3rem;
+  height: 5rem;
+  font-family: "koodak";
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+  direction: rtl;
+  padding: 0 30px;
+}
+
+#search:focus {
+  border: none;
+  outline: none;
+}
+
+#search::placeholder {
+  color: #bbb;
+}
+
+.search-user {
+  position: relative;
+  right: 30px;
+  font-size: 2rem;
+  color: #bbb;
+}
+
+#filter-job {
+  width: 30.3rem;
+  height: 5rem;
+  font-family: "koodak";
+  font-size: 2rem;
+  color: rgb(92, 92, 92);
+  padding: 0 30px;
+  border: none;
+  border-radius: 5px;
+  direction: rtl;
+}
+
+#filter-job:focus {
+  border: none;
+  outline: none;
+}
+
+.justify {
+  position: relative;
+  right: 65.6rem;
+  color: rgb(92, 92, 92);
+  font-size: 1.6rem;
+}
+
+#State {
+  width: 30.3rem;
+  height: 5rem;
+  font-family: "koodak";
+  font-size: 2rem;
+  color: rgb(92, 92, 92);
+  padding: 0 30px;
+  border: none;
+  border-radius: 5px;
+  direction: rtl;
+}
+
+#state:focus {
+  border: none;
+  outline: none;
+}
+
+.map {
+  position: relative;
+  right: 36.6rem;
+  color: rgb(92, 92, 92);
+  font-size: 1.6rem;
+}
+
+.filter button {
+  width: 190px;
+  height: 50px;
+  font-size: 2rem;
+  font-family: "koodak";
+  background-color: #ffcd70;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.filter button:hover {
+  background-color: #fad694;
+}
+
+.box-responsive-user {
+  display: none;
+}
+
+.box-responsive-user i {
+  font-size: 2.3rem;
+  color: #777;
+  cursor: pointer;
+}
+
+.box-nav-responsive-main {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 3px;
+  display: none;
+  background-color: #777;
+  cursor: pointer;
+}
+
+.box-nav-responsive-main div {
+  width: 20px;
+  height: 2.5px;
+  margin: 1.3px 0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.search-nav {
+  color: #777;
+  font-size: 2.3rem;
+  display: none;
+  cursor: pointer;
+  margin: 0 -80px;
+}
+
+.title-res {
+  font-size: 3rem;
+  color: #fff;
+  display: none;
+}
+
+.end-send-resume {
+  width: 25.5rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-family: "koodak";
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.end-send-resume i {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #1abc9c;
+}
+
+.end-send-resume a {
+  text-decoration: none;
+  color: #3ab1e4;
+}
+
+.All-ads {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/about.jpg");
+  background-position: center center;
+  background-repeat: repeat-y;
+}
+
+.All-ads div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(59, 184, 184, 0.9);
+}
+
+.All-ads a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "koodak";
+  border-bottom: 2px dashed #fff;
+}
+
+.box-company {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.box-company .company-item .company {
+  width: 17rem;
+  height: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgb(223, 223, 223);
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.box-company .company-item {
+  display: flex;
+}
+
+.box-company .company img {
+  width: 9rem;
+  height: 9rem;
+  margin: 0.9rem 0;
+}
+
+.box-company .company a {
+  text-decoration: none;
+  color: #3ab1e4;
+  font-size: 1.4rem;
+  font-family: "koodak";
+}
+/* responsive */
+@media (min-width: 1019px) and (max-width: 1216px) {
+  header nav .List-user-nav {
+    width: 20%;
+  }
+
+  .List-user-nav {
+    width: 50%;
+  }
+
+  .home {
+    width: 40px;
+    font-size: 1.3rem;
+  }
+
+  .jobs-search {
+    width: 150px;
+    font-size: 1.3rem;
+  }
+
+  .create-resume {
+    width: 100px;
+    font-size: 1.3rem;
+  }
+
+  .fifteen-company {
+    width: 110px;
+    font-size: 1.3rem;
+  }
+
+  .filter {
+    width: 100rem;
+  }
+
+  #search {
+    width: 25.3rem;
+  }
+
+  #filter-job {
+    width: 25.3rem;
+  }
+
+  .map {
+    position: relative;
+    right: 31.6rem;
+    color: rgb(92, 92, 92);
+    font-size: 1.6rem;
+  }
+
+  #State {
+    width: 25.3rem;
+  }
+
+  .justify {
+    position: relative;
+    right: 55.6rem;
+    color: rgb(92, 92, 92);
+    font-size: 1.6rem;
+  }
+
+  .filter button {
+    width: 150px;
+    font-size: 1.5rem;
+  }
+
+  .box-company .company-item .company {
+    width: 14rem;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1039px) {
+  header {
+    height: 480px;
+  }
+
+  header nav .List-user-nav {
+    display: none;
+  }
+
+  .main-List-navbar {
+    display: none;
+  }
+
+  .box-responsive-user {
+    display: block;
+  }
+
+  .box-nav-responsive-main {
+    display: flex;
+  }
+
+  .search-nav {
+    display: block;
+  }
+
+  .title-res {
+    display: block;
+  }
+
+  #State {
+    display: none;
+  }
+
+  #filter-job {
+    display: none;
+  }
+
+  .filter {
+    width: 60rem;
+    height: 160px;
+    display: block;
+  }
+
+  #search {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .filter button {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .box-company {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0;
+  }
+
+  .box-company .company-item .company {
+    width: 22rem;
+    margin: 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 770px) {
+  header {
+    height: 480px;
+  }
+
+  .Numbers-company {
+    width: 100%;
+  }
+
+  .Numbers-company .title {
+    font-size: 1rem;
+  }
+
+  .about-work {
+    font-size: 1.3rem;
+  }
+
+  header nav .List-user-nav {
+    display: none;
+  }
+
+  .main-List-navbar {
+    display: none;
+  }
+
+  .box-responsive-user {
+    display: block;
+  }
+
+  .box-nav-responsive-main {
+    display: flex;
+  }
+
+  .search-nav {
+    display: block;
+  }
+
+  .title-res {
+    display: block;
+  }
+
+  #State {
+    display: none;
+  }
+
+  #filter-job {
+    display: none;
+  }
+
+  .filter {
+    width: 100%;
+    height: 160px;
+    display: block;
+  }
+
+  #search {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .filter button {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .box-company {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0;
+  }
+
+  .box-company .company-item .company {
+    width: 16rem;
+    margin: 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 590px) {
+  header {
+    height: 480px;
+  }
+
+  .Numbers-company {
+    width: 100%;
+  }
+
+  .Numbers-company .title {
+    font-size: 1rem;
+  }
+
+  .about-work {
+    font-size: 1.3rem;
+  }
+
+  header nav .List-user-nav {
+    display: none;
+  }
+
+  .main-List-navbar {
+    display: none;
+  }
+
+  .box-responsive-user {
+    display: block;
+  }
+
+  .box-nav-responsive-main {
+    display: flex;
+  }
+
+  .search-nav {
+    display: block;
+  }
+
+  .title-res {
+    display: block;
+  }
+
+  #State {
+    display: none;
+  }
+
+  #filter-job {
+    display: none;
+  }
+
+  .filter {
+    width: 100%;
+    height: 160px;
+    display: block;
+  }
+
+  #search {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .filter button {
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .box-company {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0;
+  }
+
+  .box-company .company-item .company {
+    width: 12rem;
+    height: 12rem;
+    margin: 1.5rem 1.5rem;
+  }
+
+  .box-company .company-item .company img {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+/* end responsive */
