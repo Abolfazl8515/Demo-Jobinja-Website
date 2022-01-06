@@ -585,6 +585,88 @@ header nav .List-user-nav ul li :nth-child(2) {
   margin: 2rem 0;
 }
 
+.main .service-Fast-Today {
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgb(116, 116, 116);
+}
+
+.main .service-Fast-Today .title-Service {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgb(116, 116, 116);
+  background-color: #f8f4f4;
+  padding: 0 3rem;
+}
+
+.main .service-Fast-Today .title-Service h2 {
+  font-size: 1.8rem;
+  font-family: "yekan";
+}
+
+.main .service-Fast-Today .items-Service-Fast {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .service-Fast-Today .items-Service-Fast .item {
+  width: 50%;
+  height: 8rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  margin: 0 2rem;
+  border: 1px solid #c8c7c7;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.main .service-Fast-Today .items-Service-Fast .item .title-Item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.4rem 0;
+}
+
+.main .service-Fast-Today .items-Service-Fast .item .title-Item p {
+  width: 3rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 56, 56);
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-family: "nazanin";
+}
+
+.main .service-Fast-Today .items-Service-Fast .item .title-Item h4 {
+  font-size: 1.3rem;
+  font-family: "yekan";
+  color: #3ab1e4;
+}
+
+.main .service-Fast-Today .items-Service-Fast .item .info-About-Time-Map {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0.4rem;
+}
+
 /* responsive */
 @media (min-width: 1019px) and (max-width: 1216px) {
   header nav .List-user-nav {
@@ -795,6 +877,19 @@ header nav .List-user-nav ul li :nth-child(2) {
     width: 16rem;
     margin: 1.5rem 1.5rem;
   }
+
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .main .new-Ads {
+    width: 90%;
+    margin: 3rem 0;
+  }
+
+  .main .service-Fast-Today {
+    width: 100%;
+  }
 }
 
 @media (max-width: 590px) {
@@ -877,6 +972,10 @@ header nav .List-user-nav ul li :nth-child(2) {
   .box-company .company-item .company img {
     width: 6rem;
     height: 6rem;
+  }
+
+  .main .service-Fast-Today .items-Service-Fast .item .title-Item h4 {
+    font-size: 1rem;
   }
 }
 /* end responsive */
