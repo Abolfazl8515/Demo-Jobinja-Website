@@ -893,7 +893,7 @@ header nav .List-user-nav ul li :nth-child(2) {
   }
 }
 
-@media (max-width: 590px) {
+@media (min-width: 500px) and (max-width: 590px) {
   header {
     height: 480px;
   }
