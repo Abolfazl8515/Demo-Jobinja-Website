@@ -613,10 +613,11 @@ header nav .List-user-nav ul li :nth-child(2) {
 
 .main .service-Fast-Today .items-Service-Fast {
   width: 100%;
-  height: 10rem;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 1.3rem 0;
 }
 
 .main .service-Fast-Today .items-Service-Fast .item {
@@ -972,6 +973,15 @@ header nav .List-user-nav ul li :nth-child(2) {
   .box-company .company-item .company img {
     width: 6rem;
     height: 6rem;
+  }
+
+  .main .service-Fast-Today .items-Service-Fast {
+    flex-direction: column;
+  }
+
+  .main .service-Fast-Today .items-Service-Fast .item {
+    width: 95%;
+    margin: 0.4rem 0;
   }
 
   .main .service-Fast-Today .items-Service-Fast .item .title-Item h4 {
