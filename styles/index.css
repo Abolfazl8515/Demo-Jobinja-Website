@@ -668,6 +668,54 @@ header nav .List-user-nav ul li :nth-child(2) {
   padding: 0 0.4rem;
 }
 
+.about-Jobinja {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
+  background-color: #eeecec;
+  border: 1px solid #e0e0e0;
+}
+
+.about-Jobinja .about-Item {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-Jobinja .about-Item .title-About {
+  display: flex;
+}
+
+.about-Jobinja .about-Item .title-About h3 {
+  font-size: 2.4rem;
+  font-family: "yekan";
+  margin: 0 1.2rem;
+  color: rgb(68, 66, 66);
+}
+
+.about-Jobinja .about-Item .title-About i {
+  font-size: 3rem;
+  color: rgb(68, 66, 66);
+}
+
+.about-Jobinja .about-Item p {
+  font-size: 1.8rem;
+  font-family: "yekan";
+  direction: rtl;
+  color: rgb(116, 116, 116);
+}
+
+.about-Jobinja .about-Item p a {
+  text-decoration: none;
+  color: #3ab1e4;
+}
+
 /* responsive */
 @media (min-width: 1019px) and (max-width: 1216px) {
   header nav .List-user-nav {
@@ -891,9 +939,19 @@ header nav .List-user-nav ul li :nth-child(2) {
   .main .service-Fast-Today {
     width: 100%;
   }
+
+  .about-Jobinja {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .about-Jobinja .about-Item {
+    width: 80%;
+    margin: 1.4rem 0;
+  }
 }
 
-@media (min-width: 500px) and (max-width: 590px) {
+@media (max-width: 590px) {
   header {
     height: 480px;
   }
