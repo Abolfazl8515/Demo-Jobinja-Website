@@ -716,6 +716,110 @@ header nav .List-user-nav ul li :nth-child(2) {
   color: #3ab1e4;
 }
 
+.servises {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem 0;
+}
+
+.servises .blog-Jobinja {
+  width: 24%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.servises .blog-Jobinja .title-Blog h4 {
+  font-size: 2.5rem;
+  font-family: "koodak";
+}
+
+.servises .blog-Jobinja .title-Blog h4 a {
+  text-decoration: none;
+  color: #3ab1e4;
+}
+
+.servises .blog-Jobinja .title-Image-Article {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.servises .blog-Jobinja .title-Image-Article h5 {
+  position: relative;
+  left: 4rem;
+  top: 20rem;
+  font-size: 2rem;
+  font-family: "yekan";
+  direction: rtl;
+}
+
+.servises .blog-Jobinja .title-Image-Article img {
+  width: 100%;
+  opacity: 0.4;
+}
+
+.servises .blog-Jobinja .article-Item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1.7rem;
+}
+
+.servises .blog-Jobinja .article-Item h6 {
+  font-size: 1.6rem;
+  font-family: "nazanin";
+  margin: 0 2rem;
+}
+
+.servises .blog-Jobinja .article-Item img {
+  width: 40%;
+}
+
+.servises .about-More-Programer {
+  width: 25%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.servises .about-More-Programer .title-About-Programer {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #666;
+}
+
+.servises .about-More-Programer .title-About-Programer p {
+  width: 90%;
+  font-size: 2rem;
+  font-family: "yekan";
+  color: #fff;
+  direction: rtl;
+}
+
+.servises .about-More-Programer .image-Person {
+  width: 100%;
+}
+
+.servises .about-More-Programer .image-Person img {
+  width: 100%;
+}
+
 /* responsive */
 @media (min-width: 1019px) and (max-width: 1216px) {
   header nav .List-user-nav {
