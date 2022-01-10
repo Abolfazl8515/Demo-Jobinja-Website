@@ -888,6 +888,15 @@ header nav .List-user-nav ul li :nth-child(2) {
   .box-company .company-item .company {
     width: 14rem;
   }
+
+  .servises {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .servises .blog-Jobinja .title-Image-Article h5 {
+    display: none;
+  }
 }
 
 @media (min-width: 740px) and (max-width: 1039px) {
@@ -952,6 +961,15 @@ header nav .List-user-nav ul li :nth-child(2) {
   .box-company .company-item .company {
     width: 22rem;
     margin: 1.5rem 1.5rem;
+  }
+
+  .servises {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .servises .blog-Jobinja .title-Image-Article h5 {
+    display: none;
   }
 }
 
@@ -1053,6 +1071,15 @@ header nav .List-user-nav ul li :nth-child(2) {
     width: 80%;
     margin: 1.4rem 0;
   }
+
+  .servises {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .servises .blog-Jobinja .title-Image-Article h5 {
+    display: none;
+  }
 }
 
 @media (max-width: 590px) {
@@ -1148,6 +1175,15 @@ header nav .List-user-nav ul li :nth-child(2) {
 
   .main .service-Fast-Today .items-Service-Fast .item .title-Item h4 {
     font-size: 1rem;
+  }
+
+  .servises {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .servises .blog-Jobinja .title-Image-Article h5 {
+    display: none;
   }
 }
 /* end responsive */
