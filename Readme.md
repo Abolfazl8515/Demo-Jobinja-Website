@@ -1,0 +1,1 @@
+In this project, I tried to build a site similar to Jobinja site as an exercise
