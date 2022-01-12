@@ -820,6 +820,79 @@ header nav .List-user-nav ul li :nth-child(2) {
   width: 100%;
 }
 
+.footer {
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+
+.footer .items-Footer-Link {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.footer .items-Footer-Link ul {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 4rem 0;
+  list-style-type: none;
+}
+
+.footer .items-Footer-Link ul .title-items-Footer h5 {
+  font-size: 2rem;
+  font-family: "koodak";
+  font-weight: normal;
+  color: #999;
+}
+
+.footer .items-Footer-Link ul .underLine-Items-Footer {
+  width: 100%;
+  margin: 0.7rem 0;
+}
+
+.footer .items-Footer-Link ul .underLine-Items-Footer div {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(105, 105, 105);
+}
+
+.footer .items-Footer-Link ul li {
+  font-size: 1.4rem;
+  font-family: "koodak";
+  margin: 0.3rem 0;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.footer .items-Footer-Link ul li:hover {
+  color: #d97706;
+}
+
+.items-Footer-Icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items-Footer-Icons img {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin: 0 2rem;
+  border-radius: 50%;
+}
+
+.logo img {
+  width: 8rem;
+  height: 3.6rem;
+}
+
 /* responsive */
 @media (min-width: 1019px) and (max-width: 1216px) {
   header nav .List-user-nav {
